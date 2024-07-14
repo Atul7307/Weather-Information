@@ -48,19 +48,19 @@ function updateWeather(id){
 
     switch (forecastsData[id-1].weather[0].main) {
         case 'Mist':
-            weatherImg.src = "/img/mist.png"
+            weatherImg.src = "./img/mist.png"
             break;
         case 'Clouds':
-            weatherImg.src = "/img/cloud.png"
+            weatherImg.src = "./img/cloud.png"
             break;
         case'Clear':
-            weatherImg.src = "/img/clear.png"
+            weatherImg.src = "./img/clear.png"
             break;
         case 'Rain':
-            weatherImg.src = "/img/rain.png"
+            weatherImg.src = "./img/rain.png"
             break;
         case 'Snow':
-            weatherImg.src = "/img/snow.png"
+            weatherImg.src = "./img/snow.png"
             break;
     
         default:

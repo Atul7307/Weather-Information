@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/clear.png" type="image/x-icon">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="forecast.css">
+    
+</head>
+<body>
+    
+   <div class="wrapper">
+    <h1>Weather App</h1>
+    <div class="container">
+    
+        <div class="location-not-found">
+            <h1>Sorry, Location not found!!!</h1>
+            <img src="/img/404.png" alt="404 Error">
+        </div>
+    
+        <div class="weatherBody">
+            <img src="/img/clear.png" alt="Weather Image" class="weatherImg">
+    
+            <div class="weatherBox">
+                <p class="temprature">0 <sup>°C</sup></p>
+                <div class="description">Clear Weather</div>
+            </div>
+    
+            <div class="weatherDetails">
+                <div class="humidity details">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">0%</span>
+                        <p>humidity</p>
+                    </div>
+                </div>
+    
+                <div class="wind details">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="windSpeed">0km/H</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+                <div class=" details">
+                    <i class="fa-solid fa-temperature-full"></i>
+                    <div class="text">
+                        <span id="maxTemp">0<sup>°C</sup></span>
+                        <p>Max Temprature</p>
+                    </div>
+                </div>
+                <div class="maxTemp details">
+                    <i class="fa-solid fa-temperature-empty"></i>
+                    <div class="text">
+                        <span id="minTemp">0<sup>°C</sup></span>
+                        <p>Min Temprature</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="watherBody">
+            
+        </div>
+       </div>
+   </div>
+   <footer><p>Made with ❤️ in by Atul</p></footer>
+    <script src="https://kit.fontawesome.com/8d0f3202a3.js" crossorigin="anonymous"></script>
+    <script src="forecast.js"></script>
+</body>
+</html>
